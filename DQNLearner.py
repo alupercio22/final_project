@@ -66,7 +66,7 @@ class DQNLearner(Qlearning):
             #self.bjackModel.fit(np.array([self.endState]), self.lastReward, batch_size=1, epochs=1, verbose=0)
 
     def get_optimal_strategy(self):
-
+        
         index = []
         for x in range(4,21):
             for y in range(2,12):
